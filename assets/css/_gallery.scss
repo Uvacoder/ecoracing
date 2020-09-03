@@ -1,0 +1,43 @@
+.gallery {
+    &__categories {
+        margin-bottom: 40px;
+
+        &-list {
+            & li {
+                padding: 10px 21px;
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__images {
+        @apply grid;
+
+        @apply grid-cols-4;
+
+        @apply grid-rows-2;
+
+        @media (max-width: 1200px) {
+            @apply grid-cols-3;
+        }
+
+        @media (max-width: 992px) {
+            @apply grid-cols-2;
+        }
+
+        @media (max-width: 768px) {
+            @apply grid-cols-1;
+        }
+
+        & .image__wrapper {
+            &:hover {
+                .overlay {
+                    opacity: .6;
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+}

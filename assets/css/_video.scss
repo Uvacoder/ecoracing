@@ -1,0 +1,53 @@
+.video {
+    &__name {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+
+        &:hover {
+            div {
+                @apply border-primary;
+
+                & .name {
+                    color: var(--color-primary) !important;
+                }
+            }
+        }
+
+        &.active {
+            div {
+                @apply border-primary;
+
+                & .meta-data {
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        top: 10px;
+                        right: -80px;
+                        width: 100px;
+                        height: 2px;
+                        display: block;
+                        position: absolute;
+                        background-color: var(--color-primary);
+
+                        @media (max-width: 992px) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__image {
+        margin-left: -8.5%;
+        z-index: -1;
+        position: relative;
+        cursor: pointer;
+
+        @media (max-width: 992px) {
+            margin-left: 0;
+        }
+    }
+}

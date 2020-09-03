@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.testemonial {
+  text-align: center;
+  position: relative;
+}
+
+.testemonial__icon {
+  padding-top: 29px;
+}
+
+.testemonial__icon::before {
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "“";
+  font-size: 120px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 81px;
+  color: var(--color-primary);
+}
+
+.testemonial__text {
+  padding: 0;
+  margin-top: 24px;
+  font-size: 14px;
+}
+
+.testemonial__meta {
+  text-align: center;
+}
+
+.testemonial__meta-author {
+  margin-top: 26px;
+}
+
+.testemonial__meta-author span {
+  color: var(--color-primary);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}

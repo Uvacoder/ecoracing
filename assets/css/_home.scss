@@ -1,0 +1,15 @@
+.homeabout {
+    &__text {
+        & .iconp {
+            &:not(:first-child) {
+                margin-top: 37px;
+            }
+        }
+    }
+}
+
+.collapse-icon {
+    & path {
+        stroke: var(--white);
+    }
+}

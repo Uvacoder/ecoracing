@@ -1,0 +1,49 @@
+.video__name:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.video__name:hover div {
+  @apply border-primary;
+}
+
+.video__name:hover div .name {
+  color: var(--color-primary) !important;
+}
+
+.video__name.active div {
+  @apply border-primary;
+}
+
+.video__name.active div .meta-data {
+  position: relative;
+}
+
+.video__name.active div .meta-data::before {
+  content: "";
+  top: 10px;
+  right: -80px;
+  width: 100px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  background-color: var(--color-primary);
+}
+
+@media (max-width: 992px) {
+  .video__name.active div .meta-data::before {
+    display: none;
+  }
+}
+
+.video__image {
+  margin-left: -8.5%;
+  z-index: -1;
+  position: relative;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .video__image {
+    margin-left: 0;
+  }
+}

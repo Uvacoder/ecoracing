@@ -1,0 +1,41 @@
+footer {
+  background-color: var(--footer-bg);
+}
+
+.footer__wrapper {
+  justify-content: space-between;
+  padding: 75px 0;
+}
+
+.footer__header {
+  color: var(--white);
+  margin-bottom: 42px;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer__header::before {
+  content: "";
+  background-color: var(--color-primary);
+  position: absolute;
+  left: 0;
+  bottom: -13px;
+  width: 30px;
+  height: 2px;
+}
+
+.copyrights .social-media a:hover {
+  display: none;
+  color: var(--color-primary);
+}
+
+.copyrights .social-media a:hover svg path {
+  fill: var(--color-primary) !important;
+}
+
+.copyrights .social-media .facebook {
+  position: absolute;
+  top: -50%;
+  left: 0;
+}

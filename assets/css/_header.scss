@@ -1,0 +1,50 @@
+.page-header {
+    background-image: url("http://webdesign-finder.com/carrepair/wp-content/uploads/2017/06/breadcrumbs.png");
+    background-position: 50% 2px;
+    overflow: hidden;
+    background-size: auto;
+    background-color: var(--bg-secondary);
+}
+
+.header {
+    &__wrapper {
+        padding-top: calc(5.55% + 90px);
+        padding-bottom: 6.1%;
+        text-align: center;
+    }
+
+    &__title {
+        margin-top: 8px;
+        font-size: 60px;
+        line-height: 0.9;
+        letter-spacing: -0.05em;
+        font-weight: 600;
+        text-transform: uppercase;
+        word-wrap: break-word;
+        color: #fff;
+
+        @media (max-width: 991px) {
+            font-size: 32px;
+        }
+    }
+}
+
+.breadcrumbs {
+    display: flex;
+    justify-content: center;
+
+    & li {
+        &:not(:last-child) {
+            &::after {
+                content: '/';
+                margin: 0 10px;
+            }
+        }
+
+        & a {
+            @apply text-textcolor;
+
+            @apply uppercase;
+        }
+    }
+}

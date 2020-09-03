@@ -1,0 +1,123 @@
+{
+  "links": {
+    "home": "Home",
+    "about": "about",
+    "blog": "blog",
+    "products": "products",
+    "product": "product",
+    "post": "post",
+    "orders": "orders",
+    "contact": "contact"
+  },
+  "footer": {
+    "newsletter": "newsletter",
+    "links": "useful_links",
+    "contacts": "our contacts",
+    "imedia": "Powered by IBusinessHouse",
+    "esolve": "© All copyrights reserved to Esolve"
+  },
+  "home": {
+    "title": "eco racing egypt | Home",
+    "mission_content": "We aim to transform the existing driving experience into an eco-friendly one to ultimately get better air quality, less fuel consumption, and Reduced CO emission and global warming effect. ",
+    "videos": "Our Popular Videos",
+    "slogan": "World's no 1  fuel booster",
+    "our_mission": "our mission",
+    "testemonials": "testemonials",
+    "works": "Featured Works ",
+    "news": "latest news",
+    "questions": "popular questions",
+    "our": "our",
+    "mission": "mission?",
+    "pargraphs": {
+      "title1": "Eliminate 100% of CO emissions ",
+      "content1": "Living in crowded cities can be fun, until you test the air quality. Driving is powerful and exciting experience with a dark side of excessive pollutants. Eco is here to change this. Made of 100% organic component, Eco Racing is able to eliminate 100% of CO emissions and 99% of SO2.  ",
+      "title2": "Longer Engine Life ",
+      "content2": "With the use of Nano-technology Eco Racing will clean the plagues of sparking plug, tank, gasoline, combustion chamber and protect your machine from friction and corrosion and restore engine power. ",
+      "title3": "Exceptional Performance ",
+      "content3": "Boosting your oil performance and reducing your fuel consumption. Omitting the knocking and enhancing the power and acceleration. Prolonging the oil up to three times and saving the fuel up to 50%.   "
+    },
+    "slides": {
+      "slide1": "minimized co emmisions",
+      "slide2": "elvated performance",
+      "slide3": "reduced fuel consumption"
+    }
+  },
+
+  "questions": {
+    "q1": "What is Eco Racing ",
+    "a1": "Eco racing is the world’s no. 1 fuel booster. Eco is a fuel saver solution and engine maintenance for motor vehicles and cars. By using eco racing, combustion in the engine becomes effective so that exhaust emissions become cleaner, Carbon monoxide gas (CO) is 100% lost. Complete combustion of the engine means that all gasoline and diesel fuel (in the form of steam) in the engine burns out so that the engine becomes more powerful",
+    "q2": "Why Eco Racing",
+    "a2": "Eco Racing products boosts the performance and quality of your vehicle’s fluids. Main benefits are to improve fuel quality, provide engine maintenance, improve engine performance, improve combustion, and eliminate pollution. It offers Detergent Chemical Organic Function, which functions to perfect combustion and keep the engine in prime condition. With Eco Racing you get:     Protect Machine (Nano Tech)  Save 30-50% Fuel  Add Octane (5-10 RON)  Softens engine noise  Extend the life of the machine feasibility  Optimizing the combustion process in the engine  Reducing CO (carbon monoxide) and exhaust ash emissions  Eliminate air pollution  Eliminates Knocking so as to care for the vehicle engine  Clean the scale, tank, gasoline hose, carburetor and engine  Significantly reduces engine maintenance costs  Increases acceleration and power ",
+    "q3": "How to use Eco Racing",
+    "a3": "Eco products are fuel/oil additive. How to use eco racing products is very simple and easy, just put it in the vehicle tank just before charging the fuel. The rates are as follows : 1 Pills eco racing motorcycle : 3-4 liters of gasoline. 1 Pills eco racing car : 20-30 liters of gasoline. 1 Pills eco racing diesel : 40-60 liters of diesel. "
+  },
+  "products": {
+    "title": "eco racing egypt | Products",
+    "description": "description",
+
+    "howtouse": "how to use",
+    "product": {
+      "title1": "Eco Racing for motorcycles",
+      "desc1": "Eco racing is a fuel additive capsule that Boosts fuel quality up to 50%, protects and prolong the engine and reduces the CO emissions by 100%. Based on Nano-technology it transforms the molecular structure of the fuel to be perfectly combusted. Eco Racing offers a high-quality driving experience and an eco-friendly one. Add one capsule for each 4 liters and get up to 10 RON. ",
+      "title2": "Eco Racing for cars (Gasoline)",
+      "desc2": "Eco racing is a fuel additive capsule that Boosts fuel quality up to 50%, protects and prolong the engine and reduces the CO emissions by 100%. Based on Nano-technology it transforms the molecular structure of the fuel to be perfectly combusted. Eco Racing offers a high-quality driving experience and an eco-friendly one. Add one capsule for each 20 liters and get up to 5 RON. ",
+      "title3": "Eco Racing for cars (Diesel)",
+      "desc3": "Eco racing is a fuel additive capsule that Boosts fuel quality up to 50%, protects and prolong the engine and reduces the CO emissions by 100%. Based on Nano-technology it transforms the molecular structure of the fuel to be perfectly combusted. Eco Racing offers a high-quality driving experience and an eco-friendly one. Add one capsule for each 40-70 liters. ",
+      "howtouse": "Eco products are fuel/oil additive. How to use eco racing products is very simple and easy, just put it in the vehicle tank just before charging the fuel. "
+    }
+  },
+  "about": {
+    "title": "eco racing egypt | Home",
+    "about": "about us",
+    "content": "We are your fuel superhero; our mission is devising a unique eco-friendly driving experience. With cutting edge products transforming the quality of your vehicle’s fluids, Eco racing will elevate your vehicle’s performance, save your cash on fuel, save your oxygen from contamination, and save the planet from excessive emission of CO and global warming. With aid of Nano-technology we created the world’s no. 1 fuel booster just for you. ",
+    "how to use": "how to use"
+  },
+  "contact": {
+    "contact_information": "contact inforamation",
+    "address": "Sgaey mall , azhar street , cairo",
+    "email": "info@ecoracing.com.eg",
+    "phone": "01099933009"
+  },
+  "orders": { "billing_details": "billing details" },
+  "btns": {
+    "send": "send message",
+    "submit": "submit",
+    "add_order": "add order"
+  },
+  "gallery": {
+    "all": "all",
+    "garage": "garage",
+    "gallery": "gallery"
+  },
+  "videos": {
+    "date": "4 weeks ago",
+    "video1": "Sed gravida nisi et risus scelerisque, eu tristique",
+    "video2": "Sed gravida nisi et risus scelerisque, eu tristique",
+    "video3": "Sed gravida nisi et risus scelerisque, eu tristique"
+  },
+
+  "form": {
+    "name": "name",
+    "phone": "phone",
+    "email": "email",
+    "subject": "subject",
+    "message": "message",
+    "title": "title",
+    "address": "address",
+    "address1": "address1",
+    "address2": "address2",
+    "quantity": "qunatity",
+    "product": "product",
+    "placeholders": {
+      "name": "enter your name",
+      "phone": "enter yourphone",
+      "subject": "enter the subject",
+      "message": "enter the message",
+      "email": "enter your email",
+      "address1": "enter your address",
+      "address2": "enter your second address",
+      "quantity": "enter the qunatity",
+      "product": "choose the product"
+    }
+  }
+}
