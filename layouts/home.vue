@@ -20,7 +20,7 @@
             class="h-full w-full slide-img relative flex items-center flex-col sliders-overlay"
             :style="`background-image: url('${slide.src}')`"
           >
-            <div class="top-contacts flex justify-center items-center mb-18">
+            <div class="top-contacts md:flex justify-center items-center mb-18">
               <Contacts
                 v-for="(contact, index2) in contacts"
                 :key="index2"
