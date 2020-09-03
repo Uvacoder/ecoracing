@@ -79,7 +79,7 @@
         <LazyImage
           data-animation="pulse"
           class="animate__animated invisible"
-          source=""https://ecozone.b-cdn.net/website4.png"
+          source="https://ecozone.b-cdn.net/website4.png"
           alt="logo"
         />
         <h2
