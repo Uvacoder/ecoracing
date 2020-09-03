@@ -75,18 +75,20 @@
     <section
       class="logos bg-secondarybg h-40 w-full flex justify-center items-center"
     >
-      <div class="w-1/3">
-        <LazyImage
-          data-animation="pulse"
-          class="animate__animated invisible"
-          source="https://ecozone.b-cdn.net/website4.png"
-          alt="logo"
-        />
-        <h2
-          class="text-white text-center uppercase poppins text-xl z-10 relative block"
-        >
-          {{ $t('home.slogan') }}
-        </h2>
+      <div class="container">
+        <div class="md:w-1/3">
+          <LazyImage
+            data-animation="pulse"
+            class="animate__animated invisible"
+            source="https://ecozone.b-cdn.net/website4.png"
+            alt="logo"
+          />
+          <h2
+            class="text-white text-center uppercase poppins text-xl z-10 relative block"
+          >
+            {{ $t('home.slogan') }}
+          </h2>
+        </div>
       </div>
     </section>
     <section class="mission py-110">
