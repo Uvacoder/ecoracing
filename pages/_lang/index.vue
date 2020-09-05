@@ -75,7 +75,7 @@
     <section
       class="logos bg-secondarybg h-40 w-full flex justify-center items-center"
     >
-      <div class="container">
+      <div class="container flex justify-center">
         <div class="md:w-1/3">
           <LazyImage
             data-animation="pulse"
