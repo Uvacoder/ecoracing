@@ -73,7 +73,7 @@
       </div>
     </section>
     <section
-      class="logos bg-secondarybg h-40 w-full flex justify-center items-center"
+      class="logos bg-footerbg h-40 w-full flex justify-center items-center"
     >
       <div class="container flex justify-center">
         <div class="md:w-1/3">
@@ -84,7 +84,7 @@
             alt="logo"
           />
           <h2
-            class="text-white text-center uppercase poppins text-xl z-10 relative block"
+            class="white text-center uppercase poppins text-xl z-10 relative block"
           >
             {{ $t('home.slogan') }}
           </h2>

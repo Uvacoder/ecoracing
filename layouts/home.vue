@@ -26,7 +26,7 @@
                 :key="index2"
                 v-lazyload
                 data-animation="backInDown"
-                class="mb-8 animate__animated invisible"
+                class="mb-8 animate__animated invisible text-footertext"
                 :title="contact.title"
                 :value="contact.value"
               >
@@ -50,14 +50,10 @@
               class="top-slogan text-center invisible animate__animated"
               data-animation="fadeInDown"
             >
-              <h2
-                class="text-white uppercase poppins text-xl z-10 relative block"
-              >
+              <h2 class="white uppercase poppins text-xl z-10 relative block">
                 {{ $t('home.slogan') }}
               </h2>
-              <h2
-                class="text-white uppercase poppins text-4xl z-10 relative block"
-              >
+              <h2 class="white uppercase poppins text-4xl z-10 relative block">
                 {{ $t(slide.caption) }}
               </h2>
             </div>
@@ -140,10 +136,26 @@ export default {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
   }
   // z-index: 1;
 }
+.dark-mode {
+  .sliders-overlay {
+    position: relative;
+    &::before {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  }
+}
+
+.topnav__contact {
+  &-content {
+    & p {
+      color: var(--bg) !important;
+    }
+  }
+}
+
 // .agile
 // 	&__dots
 // 		bottom: 10px

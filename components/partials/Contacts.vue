@@ -24,3 +24,11 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.text-footertext {
+  & .text-white {
+    color: #fff !important;
+  }
+}
+</style>

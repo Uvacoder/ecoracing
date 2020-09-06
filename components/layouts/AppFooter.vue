@@ -3,51 +3,57 @@
     <div class="container">
       <div class="footer__wrapper block md:flex">
         <div class="news-letter mb-12">
-          <h4 class="second-header text-white font-bold">
+          <h4 class="second-header white font-bold">
             {{ $t('footer.newsletter') }}
           </h4>
           <div class="footer__content">
-            <input type="email" placeholder="enter your email address" />
-            <a href="" class="btn-default w-48 mt-4">{{ $t('btns.submit') }}</a>
+            <input
+              type="email"
+              placeholder="enter your email address"
+              class="text-footertext"
+            />
+            <a href="" class="btn-default w-48 mt-4 text-footertext">{{
+              $t('btns.submit')
+            }}</a>
           </div>
         </div>
         <div class="useful-links mb-12">
-          <h4 class="second-header text-white font-bold">
+          <h4 class="second-header white font-bold">
             {{ $t('footer.contacts') }}
           </h4>
           <div class="footer__content">
             <ul class="footer__nav">
               <li class="py-1">
                 <nuxt-link
-                  class="capitalize text-textcolor hover:text-primary hover:ml-1"
+                  class="capitalize text-footertext hover:text-primary hover:ml-1"
                   :to="localePath('/about')"
                   >{{ $t('links.about') }}</nuxt-link
                 >
               </li>
               <li class="py-1">
                 <nuxt-link
-                  class="capitalize text-textcolor hover:text-primary hover:ml-1"
+                  class="capitalize text-footertext hover:text-primary hover:ml-1"
                   :to="localePath('/blog')"
                   >{{ $t('links.blog') }}</nuxt-link
                 >
               </li>
               <li class="py-1">
                 <nuxt-link
-                  class="capitalize text-textcolor hover:text-primary hover:ml-1"
+                  class="capitalize text-footertext hover:text-primary hover:ml-1"
                   :to="localePath('/products')"
                   >{{ $t('links.products') }}</nuxt-link
                 >
               </li>
               <li class="py-1">
                 <nuxt-link
-                  class="capitalize text-textcolor hover:text-primary hover:ml-1"
+                  class="capitalize text-footertext hover:text-primary hover:ml-1"
                   :to="localePath('/orders')"
                   >{{ $t('links.orders') }}</nuxt-link
                 >
               </li>
               <li class="py-1">
                 <nuxt-link
-                  class="capitalize text-textcolor hover:text-primary hover:ml-1"
+                  class="capitalize text-footertext hover:text-primary hover:ml-1"
                   :to="localePath('/contact')"
                   >{{ $t('links.contact') }}</nuxt-link
                 >
@@ -56,7 +62,7 @@
           </div>
         </div>
         <div class="news-letter">
-          <h4 class="second-header text-white font-bold">
+          <h4 class="second-header white font-bold">
             {{ $t('footer.contacts') }}
           </h4>
           <Contacts
@@ -64,7 +70,7 @@
             :key="index2"
             v-lazyload
             data-animation="backInDown"
-            class="mb-8 animate__animated invisible"
+            class="mb-8 animate__animated invisible text-footertext"
             :title="contact.title"
             :value="contact.value"
           >
@@ -95,8 +101,8 @@
         class="flex justify-between py-4 border-t border-bordercolor items-center"
       >
         <div class="copyrights">
-          <div class="mb-2">{{ $t('footer.imedia') }}</div>
-          <div class="mb-2">{{ $t('footer.esolve') }}</div>
+          <div class="mb-2 text-footertext">{{ $t('footer.imedia') }}</div>
+          <div class="mb-2 text-footertext">{{ $t('footer.esolve') }}</div>
         </div>
         <div class="social-media flex items-center">
           <a class="icon-link scale-6" href="www.facebook.com"

@@ -15,6 +15,8 @@ module.exports = {
       gray: 'var(--gray)',
       bordercolor: 'var(--border-color)',
       secondarybg: 'var(--bg-secondary)',
+      footerbg: 'var(--footer-bg)',
+      footertext: 'var(--footer-text)',
       white: 'var(--white)',
       black: 'var(--black)',
     },

@@ -6,6 +6,7 @@
     --bg-secondary: #fff;
     --border-color: #ddd;
     --border-color: rgba(255, 255, 255, 0.1);
+    --footer-text: #dedede;
 }
 
 .dark-mode {
@@ -16,7 +17,7 @@
     --bg-secondary: #1b1b1b;
     --gray:#a7a7a7;
     --bg-lighter:#333;
-    --footer-bg: #000915;
+    --footer-bg: #1b1b1b;
     --border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -38,13 +39,13 @@
     /* --footer-bg:#ded0bf; */
 
     /* --border-color: rgba(0, 0, 0, 0.1); */
-    --color: #a7a7a7;
-    --bg: #262626;
-    --white: #fff;
-    --black: #000;
-    --bg-secondary: #1b1b1b;
+    --color: #333;
+    --bg: #dedede;
+    --white: #000;
+    --black: #bebebe;
+    --bg-secondary: #bebebe;
     --gray:#a7a7a7;
-    --bg-lighter:#333;
-    --footer-bg: #000915;
-    --border-color: rgba(255, 255, 255, 0.1);
+    --bg-lighter:#bebebe;
+    --footer-bg: #1b1b1b;
+    --border-color: rgba(0, 0, 0, 0.1);
 }

@@ -58,7 +58,7 @@
           </nav>
 
           <ul class="icons flex justif-center align-center">
-            <!-- <IconDark
+            <IconDark
               v-if="$colorMode.preference == 'light'"
               class="icon mr-4 cursor-pointer"
               @click="toggleColorMode"
@@ -67,7 +67,7 @@
               v-else
               class="icon mr-4 cursor-pointer"
               @click="toggleColorMode"
-            /> -->
+            />
             <IconGlobe
               class="globe-icon cursor-pointer"
               @click.prevent="toggleLang()"
@@ -81,15 +81,15 @@
 
 <script>
 import IconMenu from '@/assets/icons/menu.svg?inline'
-// import IconLight from '@/assets/icons/light.svg?inline'
-// import IconDark from '@/assets/icons/dark.svg?inline'
+import IconLight from '@/assets/icons/light.svg?inline'
+import IconDark from '@/assets/icons/dark.svg?inline'
 import IconClose from '@/assets/icons/close.svg?inline'
 import IconGlobe from '@/assets/icons/globe.svg?inline'
 
 export default {
   components: {
-    // IconLight,
-    // IconDark,
+    IconLight,
+    IconDark,
     IconMenu,
     IconClose,
     IconGlobe,

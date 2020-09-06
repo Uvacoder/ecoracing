@@ -11,6 +11,10 @@ input, textarea {
   font-size: 14px;
 }
 
+input.text-footertext, textarea.text-footertext {
+  color: var(--footer-text);
+}
+
 input {
   height: 40px;
 }
@@ -32,6 +36,10 @@ input {
   overflow: hidden;
   transition: all, 0.4s, linear, 0s;
   display: block;
+}
+
+.btn-default.text-footertext {
+  color: var(--footer-text);
 }
 
 .btn-default::before, .btn-default::after {
