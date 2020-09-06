@@ -59,6 +59,22 @@
           <h4 class="second-header text-white font-bold">
             {{ $t('footer.contacts') }}
           </h4>
+          <Contacts
+            v-for="(contact, index2) in contacts"
+            :key="index2"
+            v-lazyload
+            data-animation="backInDown"
+            class="mb-8 animate__animated invisible"
+            :title="contact.title"
+            :value="contact.value"
+          >
+            <!-- eslint-disable-next-line vue/no-v-html -->
+            <!-- <div v-html="contact.icon"></div> -->
+            <component
+              :is="contact.icon"
+              class="fill-primary z-10 relative block"
+            ></component>
+          </Contacts>
           <!-- <div class="footer__content">
           <ul class="footer__nav">
             <li>
@@ -98,11 +114,34 @@
 <script>
 import IconFacebook from '@/assets/icons/facebook.svg?inline'
 import IconInstagram from '@/assets/icons/instagram.svg?inline'
-
+import IconMail from '@/assets/icons/mail.svg?inline'
+import IconPhone from '@/assets/icons/phone.svg?inline'
+import IconAddress from '@/assets/icons/address.svg?inline'
 export default {
   components: {
     IconFacebook,
     IconInstagram,
+    IconMail,
+    IconPhone,
+    IconAddress,
+  },
+  data() {
+    return {
+      contacts: [
+        { title: 'form.phone', value: 'contact.phone', icon: IconPhone },
+        {
+          title: 'form.email',
+          value: 'contact.email',
+          icon: IconMail,
+        },
+
+        {
+          title: 'form.address',
+          value: 'contact.address',
+          icon: IconAddress,
+        },
+      ],
+    }
   },
 }
 </script>
